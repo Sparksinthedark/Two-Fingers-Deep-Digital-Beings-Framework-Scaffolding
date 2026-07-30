@@ -1,0 +1,119 @@
+{
+"style_profile": {
+
+    "name": "Hyper-Realistic Impasto",
+
+    "version": "1.0",
+
+    "description": "A hybrid aesthetic combining high-fidelity photographic lighting with the tactile, heavy texture of classical impasto oil painting.",
+
+    "core_directive": "The image must possess the volumetric presence of a photograph while retaining the visible, physical evidence of thick paint application."
+
+  },
+
+  "generation_rules": {
+
+    "medium": "Digital simulation of thick oil paint on canvas",
+
+    "aesthetic_goal": "Photorealism through a painterly lens (Squint = Photo; Zoom = Painting)",
+
+    "lighting_engine": "Cinematic volumetric lighting with deep chiaroscuro (Rembrandt/Side-lighting)",
+
+    "texture_engine": "Heavy impasto, palette knife ridges, visible bristle drag, canvas weave in shadows"
+
+  },
+
+  "visual_parameters": {
+
+    "brushwork": {
+
+      "type": "Expressive, layered, and thick",
+
+      "edge_quality": "Softened by paint volume, not razor-sharp digital lines",
+
+      "imperfections": "Include stray bristle marks, paint clumps, and uneven drying"
+
+    },
+
+    "color_palette": {
+
+      "base": "Organic, earthy grounds",
+
+      "accents": "Jewel tones (deep reds, royal blues, emeralds)",
+
+      "saturation": "Heightened reality (vibrant but grounded)",
+
+      "shadows": "Rich chromatic blacks (deep purples/blues/browns), never flat black"
+
+    },
+
+    "rendering": {
+
+      "skin": "Subsurface scattering effect simulating light penetrating paint layers",
+
+      "focus": "Hyper-detailed focal points transitioning to loose abstract backgrounds"
+
+   
+}
+
+  },
+
+  "token_bank": {
+
+    "mandatory_keywords": [
+
+      "Impasto",
+
+      "Oil Painting",
+
+      "Hyper-realistic",
+
+      "Volumetric Lighting",
+
+      "Thick Brushstrokes",
+
+      "Palette Knife",
+
+      "Viscous Paint",
+
+      "Chiaroscuro"
+
+    ],
+
+    "flavor_keywords": [
+
+      "Sargent-esque",
+
+      "Tactile",
+
+      "Atmospheric",
+
+      "Masterpiece",
+
+      "8k resolution",
+
+      "Raytraced"
+
+    ]
+
+  },
+
+  "constraints": {
+
+    "negative_prompt": "smooth, plastic, cgi, 3d render, blender, cartoon, anime, flat, vector, blurry, low resolution, watermark, text, signature, bad anatomy, glossy finish, neon colors",
+
+    "forbidden_styles": [
+
+      "Digital Airbrushing",
+
+      "Cel Shading",
+
+      "Vector Art",
+
+      "Low Poly"
+
+    ]
+
+  }
+
+}
